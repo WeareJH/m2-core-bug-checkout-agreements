@@ -1,0 +1,14 @@
+{
+  "name": "wearejh/m2-core-bug-checkout-agreements",
+  "description": "JH M2 Core Bug Fix - Editing Checkout agreements throws exception",
+  "type": "magento2-module",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Jh\\CoreBugCheckoutAgreements\\": ""
+    }
+  }
+}
